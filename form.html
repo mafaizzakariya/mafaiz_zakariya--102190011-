@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML FORM</title>
+
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/eksekusi.php" autocomplete="on">
+  <label for="fnama">Nama Depan:</label><br>
+  <input type="text" id="fnama" name="fnama" value=""><br>
+  <label for="lnama">Nama Belakang:</label><br>
+  <input type="text" id="lnama" name="lnama" value=""><br><br>
+  <input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki">
+  <label for="laki-laki">laki-laki</label><br>
+  <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan">
+  <label for="perempuan">perempuan</label><br><br>
+  <input type="checkbox" id="prodi1" name="prodi1" value="prodi1">
+  <label for="prodi1"> Teknologi Informasi</label><br>
+  <input type="checkbox" id="prodi2" name="prodi2" value="prodi2">
+  <label for="prodi2"> Teknologi Komputer</label><br>
+  <input type="checkbox" id="prodi3" name="prodi3" value="prodi3">
+  <label for="prodi3"> Teknologi Industri</label><br>
+  <input type="checkbox" id="prodi4" name="prodi4" value="prodi4">
+  <label for="prodi4"> Fisika</label><br><br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>jika kamu klik tombol "submit", form-data akan dikirim ke page bersifat "/action_page.php".</p>
+
+</body>
+</html>
